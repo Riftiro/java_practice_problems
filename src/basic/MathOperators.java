@@ -1,6 +1,10 @@
 package basic;
 
 public class MathOperators {
+
+  public static double x = 3;
+  public static double y = 4;
+
   public static void main(String[] args) throws Exception {
     // 1. Write a Java program to print the sum of two numbers.
     /*
@@ -9,6 +13,8 @@ public class MathOperators {
     Expected Output :
       110
     */
+    double z = x + y;
+    System.out.println("Sum: " + z);
 
     // 2. Write a Java program to divide two numbers and print on the screen.
     /*
@@ -17,6 +23,8 @@ public class MathOperators {
     Expected Output :
       16
     */
+    double a = x/y;
+    System.out.println("After Division: " + a);
 
     // 3. Write a Java program to print the result of the following operations.
 
@@ -32,5 +40,17 @@ public class MathOperators {
       19
       13
     */
+    double b = -2+5*3;
+    //expected: 13
+    double c = (33+4) % 2;
+    //expected: 1
+    double d = 15 + -6*-2 / 2;
+    //expected: 27
+    double e = 6 + 5 / 3 * 6 - 8 % 2;
+    //expected: 12
+    System.out.println("a. " + b);
+    System.out.println("b. " + c);
+    System.out.println("c. " + d);
+    System.out.println("d. " + e);
   }
 }

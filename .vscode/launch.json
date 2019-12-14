@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MathOperators",
+            "request": "launch",
+            "mainClass": "basic.MathOperators",
+            "projectName": "java_practice_problems"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HelloWorld",
             "request": "launch",
             "mainClass": "basic.HelloWorld",
