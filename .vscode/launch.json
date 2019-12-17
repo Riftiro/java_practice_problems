@@ -2,6 +2,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ScannerInput",
+            "request": "launch",
+            "mainClass": "basic.ScannerInput",
+            "projectName": "java_practice_problems",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MathOperators",
             "request": "launch",
             "mainClass": "basic.MathOperators",
