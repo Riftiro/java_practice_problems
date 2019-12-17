@@ -2,6 +2,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IfStatements",
+            "request": "launch",
+            "mainClass": "basic.IfStatements",
+            "projectName": "java_practice_problems",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ScannerInput",
             "request": "launch",
             "mainClass": "basic.ScannerInput",
@@ -13,14 +21,16 @@
             "name": "CodeLens (Launch) - MathOperators",
             "request": "launch",
             "mainClass": "basic.MathOperators",
-            "projectName": "java_practice_problems"
+            "projectName": "java_practice_problems",
+            "console": "externalTerminal"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - HelloWorld",
             "request": "launch",
             "mainClass": "basic.HelloWorld",
-            "projectName": "java_practice_problems"
+            "projectName": "java_practice_problems",
+            "console": "externalTerminal"
         }
     ]
 }
