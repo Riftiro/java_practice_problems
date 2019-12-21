@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sat Dec 21 2019 13:22:21 GMT-0500 (Eastern Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .vscode/launch.json
+* src/basic/IfStatements.java
+* src/basic/MathOperators.java
+* src/basic/RandomNumbers.java
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

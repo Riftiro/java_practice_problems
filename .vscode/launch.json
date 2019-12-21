@@ -5,7 +5,9 @@
             "name": "CodeLens (Launch) - RandomNumbers",
             "request": "launch",
             "mainClass": "basic.RandomNumbers",
-            "projectName": "java_practice_problems"
+            "projectName": "java_practice_problems",
+            "console": "externalTerminal"
+
         },
         {
             "type": "java",
