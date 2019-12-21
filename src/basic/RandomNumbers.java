@@ -63,5 +63,8 @@ public class RandomNumbers {
     int x = rand.nextInt(4);
     System.out.println(believe[x]);
   }
-  
+  public static void ProblemFour(Random rand){
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Pick an object\nRock = 1\nPaper = 2\nScissors = 3");
+  }
 }
