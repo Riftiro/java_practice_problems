@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sat Dec 21 2019 14:52:29 GMT-0500 (Eastern Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .vscode/launch.json
+* src/basic/RandomNumbers.java
+* src/rock_paper_scissors/RockyV1.java
+
+
+Created files:
+* .autogit/logs/log-21-11-2019-14-22-23.txt
+
+
+Deleted files:
+
+
+Renamed files:
