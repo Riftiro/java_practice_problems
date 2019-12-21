@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sat Dec 21 2019 15:22:35 GMT-0500 (Eastern Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/rock_paper_scissors/RockyV1.java
+
+
+Created files:
+* .autogit/logs/log-21-11-2019-14-52-29.txt
+
+
+Deleted files:
+
+
+Renamed files:

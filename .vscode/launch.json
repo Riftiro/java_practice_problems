@@ -5,7 +5,9 @@
             "name": "CodeLens (Launch) - RockyV1",
             "request": "launch",
             "mainClass": "rock_paper_scissors.RockyV1",
-            "projectName": "java_practice_problems"
+            "projectName": "java_practice_problems",            
+            "console": "externalTerminal"
+
         },
         {
             "type": "java",
