@@ -63,4 +63,5 @@ public class RandomNumbers {
     int x = rand.nextInt(4);
     System.out.println(believe[x]);
   }
+  
 }
