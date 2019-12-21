@@ -12,7 +12,7 @@ public class RockyV1 {
         print("Welcome to rock, paper, scissors!\nPlease select a weapon\n1 = Rock\n2 = Paper\n3 = Scissors");
         int humanSelection = scanner.nextInt() - 1;
         int botSelection = rand.nextInt(3);    
-        String outcomes[] = {"You both chose " + weapons[botSelection] + "! You canceled out each other's hits!", "You killed your opponent with " + weapons[humanSelection] + "!", "Your opponent killed you with" + weapons[botSelection] + "!"};
+        String outcomes[] = {"You both chose " + weapons[botSelection] + "! You canceled out each other's hits!", "You killed your opponent with " + weapons[humanSelection] + "!", "Your opponent killed you with " + weapons[botSelection] + "!"};
 
         if(humanSelection==botSelection) {
             System.out.println(outcomes[0]);  
