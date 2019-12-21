@@ -18,16 +18,21 @@ public class RandomNumbers {
   }
   public static void main(String[] args) throws Exception {
 
-    testProblem();
+    //testProblem();
+    System.out.println("Please select a problem (1-3)");
     Random rand = new Random();
     Scanner scanner = new Scanner(System.in);
     int x = scanner.nextInt();
     if(x==1){
+      System.out.println("You have selected problem one.");
       ProblemOne(rand);
     }else if(x==2){
+      System.out.println("You have selected problem two.");
       ProblemTwo(rand);
+    }else if(x==3){
+      System.out.println("You have selected problem three.");
+      ProblemThree(rand);
     }
-    ProblemThree(rand,scanner);
 
     // 4. Get user input, print matching string to number
     // 1 -> "rock", 2 -> "paper", 3 -> "scissors"
@@ -47,10 +52,11 @@ public class RandomNumbers {
     int z = y + 1;
     System.out.println("\n\nA random number between 1 and 3 is " +z);
   }
-  public static void ProblemThree(Random rand, Scanner scanner) {
+  public static void ProblemThree(Random rand) {
     // 3. Mental Health Therapist program:
     // Ask usere for their name?
-    System.out.println("Hi, what's your name?");
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Hi, what's your name?\n");
     String name = scanner.nextLine();
     // random print "I believe in you!" or "You suck!"
     String[] believe = {"I believe in you, " + name, "I don't believe in you, " + name + ", you suck.", "I don't believe in you, " + name + ", you suck.","I don't believe in you, " + name + ", you suck."};
