@@ -19,7 +19,7 @@ public class RandomNumbers {
   public static void main(String[] args) throws Exception {
 
     //testProblem();
-    System.out.println("Please select a problem (1-3)");
+    System.out.println("Please select a problem (1-5)");
     Random rand = new Random();
     Scanner scanner = new Scanner(System.in);
     int x = scanner.nextInt();
@@ -32,14 +32,17 @@ public class RandomNumbers {
     }else if(x==3){
       System.out.println("You have selected problem three.");
       ProblemThree(rand);
+    }else if(x==4){
+      System.out.println("You have selected problem four.");
+      ProblemFour(rand);
+    }else if(x==5){
+      System.out.println("You have selected problem five.");
+      ProblemFive(rand);
     }
 
-    // 4. Get user input, print matching string to number
-    // 1 -> "rock", 2 -> "paper", 3 -> "scissors"
+    
 
-    // 5. Set a seed "seed value".
-    // Randomly generate a number.
-    // Run program 4 times to ensure that it generates the same number each time.
+    
   }
   public static void ProblemOne(Random rand) {
     // 1. Generate a random number and print to screen.
@@ -65,6 +68,24 @@ public class RandomNumbers {
   }
   public static void ProblemFour(Random rand){
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Pick an object\nRock = 1\nPaper = 2\nScissors = 3");
+    // 4. Get user input, print matching string to number
+    // 1 -> "rock", 2 -> "paper", 3 -> "scissors"
+    System.out.println("Pick an object\n\nRock = 1\nPaper = 2\nScissors = 3");
+    String[] objects = {"Rock","Paper","Scissors"};
+    int x = scanner.nextInt() - 1;
+    System.out.println("You have chosen " + objects[x]);
+  }
+  public static void ProblemFive(Random rand){
+    Scanner scanner = new Scanner(System.in);
+    // 5. Set a seed "seed value".
+    System.out.println("Please set a seed value.");
+    long seed = scanner.nextLong();
+    rand.setSeed(seed);
+
+    // Randomly generate a number.
+    int randInt = rand.nextInt();
+    // Run program 4 times to ensure that it generates the same number each time.
+    System.out.println("Random int. value: " + randInt);
+    System.out.println("Random int. value: " + randInt);
   }
 }
