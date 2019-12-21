@@ -19,7 +19,7 @@ public class MathOperators {
     // 2. Write a Java program to divide two numbers and print on the screen.
     /*
     Test Data :
-      50/3
+      50/3 The quick brown fox j
     Expected Output :
       16
     */

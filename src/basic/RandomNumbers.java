@@ -1,11 +1,12 @@
 package basic;
+
 // https://www.geeksforgeeks.org/generating-random-numbers-in-java/
 // https://www.geeksforgeeks.org/java-math-random-method-examples/
 // https://www.geeksforgeeks.org/random-setseed-method-in-java-with-examples/
 
 // use these links to learn more about random numbers
-// import java.lang.Math;
-// import java.util.Random;
+import java.lang.Math;
+import java.util.Random;
 
 // hint
 // use Math library for now
@@ -15,12 +16,17 @@ public class RandomNumbers {
     System.out.println("Do you believe in me?");
   }
   public static void main(String[] args) throws Exception {
+    Random rand = new Random();
+
     testProblem();
 
     // 1. Generate a random number and print to screen.
-
+    int x = rand.nextInt(1000);
+    System.out.println("The first random number is " + x);
     // 2. Generate a random number between 1 and 3. print that number.
-
+    int y = rand.nextInt(2);
+    int z = y + 1;
+    System.out.println("A random number between 1 and 3 is " +z);
     // 3. Mental Health Therapist program:
     // Ask usere for their name?
     // random print "I believe in you!" or "You suck!"

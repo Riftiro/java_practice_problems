@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RandomNumbers",
+            "request": "launch",
+            "mainClass": "basic.RandomNumbers",
+            "projectName": "java_practice_problems"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IfStatements",
             "request": "launch",
             "mainClass": "basic.IfStatements",

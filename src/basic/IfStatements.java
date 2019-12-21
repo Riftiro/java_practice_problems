@@ -11,6 +11,8 @@ public class IfStatements {
       Problem_One();
     }else if(x==2){
       Problem_Two();
+    }else if(x==3){
+      Problem_Three();
     }
 
  
@@ -35,7 +37,6 @@ public class IfStatements {
     }else if(x==2) {
       System.out.println("The number that you just input was 2");
     }
-    return;
   }
   public static void Problem_Two(){
        // 2. Get number as input, print whether the number is even
@@ -58,7 +59,6 @@ public class IfStatements {
     }else{
       System.out.println("\nThe number is even");
     }
-    return;
   }
 
   public static void Problem_Three(){
@@ -76,5 +76,14 @@ public class IfStatements {
       true
     */
     Scanner scanner = new Scanner(System.in);
+    System.out.println("\n\n(Event 3) \nInput value for x");
+    int x = scanner.nextInt();
+    System.out.println("\nInput value for y");
+    int y = scanner.nextInt();
+    if(!(x==y)){
+      System.out.println("X is not equal to Y");
+    }else if(x==y){
+      System.out.println("X is equal to Y");
+    }
   }
 }
